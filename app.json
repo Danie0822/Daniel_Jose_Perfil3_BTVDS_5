@@ -7,10 +7,20 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splas.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4A90E2", 
+      "splashAnimation": {
+        "type": "fade",  
+        "duration": 1000
+      }
     },
+    "backgroundGradient": {
+      "type": "linear",
+      "colors": ["#4A90E2", "#50E3C2"], 
+      "start": [0, 0],
+      "end": [1, 1]
+    },    
     "assetBundlePatterns": [
       "**/*"
     ],
